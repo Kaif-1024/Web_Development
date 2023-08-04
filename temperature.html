@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="a1">
+        <h1><b><u>Temperature Converter</u></b></h1>
+        <div class="a2"><br><br>
+            <label for="temperatureInput">Temperature:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" id="temperatureInput">
+            <br><br><br>
+            <label for="unitSelect">From:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <select id="unitSelect">
+               <option value="celsius">Celsius</option>
+               <option value="fahrenheit">Fahrenheit</option>
+               <option value="kelvin">Kelvin</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="resultSelect">To:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <select id="resultSelect">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <br><br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<button onclick="convertTemperature()" style="background-color: blue; font-size: 30px; border-radius: 6px;">Convert</button>
+            <br><br><br>
+            <label id="resultLabel" style="background-color: yellow;"></label>
+           
+        </div>
+        <script src="temp.js"></script>
+    </div>
+</body>
+</html>
+
+
+
+
+
